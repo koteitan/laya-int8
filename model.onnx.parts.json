@@ -1,0 +1,23 @@
+{
+ "file": "model.onnx",
+ "size": 324983479,
+ "sha256": "e395682884d45f314f4a66a19040845bfc91b8efca1a421e914b405e43d0bf03",
+ "parts": [
+  {
+   "name": "model.onnx.000",
+   "size": 83886080
+  },
+  {
+   "name": "model.onnx.001",
+   "size": 83886080
+  },
+  {
+   "name": "model.onnx.002",
+   "size": 83886080
+  },
+  {
+   "name": "model.onnx.003",
+   "size": 73325239
+  }
+ ]
+}

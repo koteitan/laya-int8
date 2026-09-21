@@ -1,0 +1,28 @@
+laya-multilingual-onnx-int8
+Copyright 2026 koteitan
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+------------------------------------------------------------------------
+This is a dynamically quantized (QInt8 weights) build of an existing model,
+and everything it derives from is Apache-2.0:
+
+1. Laya
+   https://github.com/NandhaKishorM/laya
+   Copyright Convai Innovations and Laya contributors.
+
+2. mizchi/laya-multilingual-onnx
+   https://huggingface.co/mizchi/laya-multilingual-onnx
+   The float16 ONNX export this was quantized from, itself produced by
+   laya-mlx (https://github.com/mizchi/laya-mlx) from
+   convaiinnovations/laya-multilingual (mmBERT-base, 322M parameters).
+
+Changes made here (Apache-2.0 section 4(b)):
+   - Cast the float16 initializers back to float32, dropped the graph's stale
+     value_info shape hints, and applied onnxruntime's quantize_dynamic with
+     QInt8 weights. 647 MB -> 325 MB.
+   - Split model.onnx into four parts under GitHub's 100 MB per-file limit,
+     with model.onnx.parts.json describing how to rejoin them.
+   - Set "dtype": "int8" in onnx_config.json.
+
+The tokenizer and the agent configuration are copied unchanged.
