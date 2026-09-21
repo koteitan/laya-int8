@@ -1,0 +1,27 @@
+{
+ "file": "size325.onnx",
+ "size": 340787310,
+ "sha256": "77fec81bc64a8cf695cce1d34365e9ccc22cd6cfd51c4ef83f780e53471a87b6",
+ "parts": [
+  {
+   "name": "size325.onnx.000",
+   "size": 83886080
+  },
+  {
+   "name": "size325.onnx.001",
+   "size": 83886080
+  },
+  {
+   "name": "size325.onnx.002",
+   "size": 83886080
+  },
+  {
+   "name": "size325.onnx.003",
+   "size": 83886080
+  },
+  {
+   "name": "size325.onnx.004",
+   "size": 5242990
+  }
+ ]
+}
