@@ -1,0 +1,19 @@
+{
+ "file": "size192.onnx",
+ "size": 201326699,
+ "sha256": "06bbcd3fde4cae48c03bc986e9ae067d9bc7892b19c9a6ba97aad57ea76bccaf",
+ "parts": [
+  {
+   "name": "size192.onnx.000",
+   "size": 83886080
+  },
+  {
+   "name": "size192.onnx.001",
+   "size": 83886080
+  },
+  {
+   "name": "size192.onnx.002",
+   "size": 33554539
+  }
+ ]
+}

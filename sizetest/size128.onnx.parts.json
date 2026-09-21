@@ -1,0 +1,15 @@
+{
+ "file": "size128.onnx",
+ "size": 134217835,
+ "sha256": "4deb35193ab95bbb0bdc6d9f00bf6f62337f8c049d437d55e171a5c95cf81fb7",
+ "parts": [
+  {
+   "name": "size128.onnx.000",
+   "size": 83886080
+  },
+  {
+   "name": "size128.onnx.001",
+   "size": 50331755
+  }
+ ]
+}
